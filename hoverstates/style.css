@@ -1,0 +1,102 @@
+html, body {
+  background: linear-gradient(white, red);
+  font-family: sans-serif;
+  font-size: 2.1vw;
+  line-height: 1.2em;
+  padding: .8vw 8vw;
+}
+
+img {
+  width: 60vw;
+  margin-bottom: 2vw;
+}
+
+.container {
+  margin-bottom: 5vw;
+}
+
+textarea {
+  width: 30vw;
+  height: 10vw;
+  font-size: 1em;
+  padding: 1vw;
+  display: block;
+  margin-top: .5vw;
+  margin-bottom: 1.5vw;
+}
+
+
+.change-color:hover {
+  color: blue;
+}
+
+.change-bg:hover {
+  background-color: yellow;
+}
+
+.change-size:hover {
+  font-size: 3vw;
+}
+
+.change-font:hover {
+  font-family: 'Impact';
+}
+
+.change-weight:hover {
+  font-weight: bold;
+}
+
+.make-italic:hover {
+  font-style: italic;
+}
+
+.zoom {
+  transition: all 1.5s ease-in-out;
+}
+
+.zoom:hover {
+  transform: scale(4.5);
+}
+
+.blackwhite:hover {
+  -webkit-filter: grayscale (100%);
+  filter: grayscale(100%);
+}
+
+.makeblur:hover {
+  -webkit-filter: blur(20px);
+  filter: blur(20px);
+}
+
+.invert:hover {
+  -webkit-filter: invert(100%);
+  filter: invert(100%);
+}
+
+.addsat:hover {
+  filter: saturate(400%);
+}
+
+.addbright:hover {
+  filter:brightness(500%);
+}
+
+.addcon:hover {
+  filter:contrast(400%);
+}
+
+.addhue:hover {
+  filter:hue-rotate(650deg);
+}
+
+.extra:hover {
+  filter: saturate(1000%) brightness(1000%) contrast(600%);
+}
+
+.rotate:hover {
+  transform: rotate(55deg);
+}
+
+#demo2 {
+  color: white;
+}

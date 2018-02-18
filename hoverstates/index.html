@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="style.css">
+    <title>Hover CSS</title>
+  </head>
+  <body>
+
+    <div class="container">
+      <h1>Hover States Demo</h1>
+      <p>
+        Hover can amplify content in many ways. <br><br> Add a :hover to your classes. Then, add the stylistic attribute.<br><br>Example: To change your font color upon hovering, you would add this in your CSS:
+<textarea>
+.change-color:hover {
+  color: blue;
+}
+</textarea>
+          I will brief a range of uses. Eventually, I will display its usage in a very specific way as it directly relates to content.
+      </p>
+    </div>
+
+    <div class="container">
+    <h2>Hover & Text</h2>
+      <img src="bmemes/B.jpg" style="width: 30vw;">
+      <p class="change-bg">B Button Emoji is an ideogram featuring a red block with the letter “B” written inside.</p>
+      <p class="change-size">Some have used to symbol to represent the B blood type.</p>
+      <p class="change-weight">It has also been used online to represent the Bloods street gang and the kinship slang term “B” (short for “brother”).</p>
+      <p class="change-font">Additionally, characters in words are often replaced with the emoji within 'circle jerk' and 'ironic meme' communities.</p>
+      <p class="make-italic">The emoji is incredibly popular on /r/dankmemes, along with other subreddits, as users often substitute the emoji into titles for their posts. The practice became so ubiquitous that many felt the emoji was actively hurting the subreddit. This led to the creation of a poll posted to the subreddit on whether to ban the use of the B Emoji. As of June 16th, 2017, “No” votes are beating “Yes” votes by a razor-thin margin of 11,877 votes to 11,708 votes, a difference of only 169 with 23,585 votes. The ordeal caused The Daily Dot to examine the B Button Emoji and its relevance in meme culture.</p>
+      <p class="change-color">It came into existence under the name "Negative Squared Latin Capital Letter B."</p>
+    </div>
+
+    <div class="container">
+      <h2>Hover & Image</h2>
+        <img class="zoom" src="bmemes/origin.jpg">
+        <img class="blackwhite" src="bmemes/connectfour.jpg">
+        <img class="makeblur" src="bmemes/communism2.png">
+        <img class="invert" src="bmemes/thanksgiving.png">
+      </div>
+
+    <div class="container">
+      <h2>Application: The "Deep Fry" </h2> <!-- show me the B -->
+      <img class="addsat" src="bmemes/cocacola.jpg">
+      <img class="addsat addbright addhue" src="bmemes/crab.jpg">
+      <img class="addsat addcon addbright" src="bmemes/carl.jpg">
+      <img class="extra" src="bmemes/snack.jpg">
+      <img class="extra rotate" src="bmemes/neil1.png">
+      <img class="extra" src="bmemes/neil2.jpg">
+    </div>
+
+
+    <script>
+    function myFunction2() {
+        var str = document.getElementById("demo2").innerHTML;
+        var res = str.replace("Amanda Grossman<br>Andrew LeClair<br>Reading Without Pages<br>February 2018", "Bamanda Brossman<br>Bandrew BeBlair<br>Beading Bithout Bages<br>Bebruary 2018");
+        document.getElementById("demo2").innerHTML = res;
+    }
+    </script>
+
+    <div id="demo2" onmouseover="myFunction2()">
+      <h4>Amanda Grossman<br>Andrew LeClair<br>Reading Without Pages<br>February 2018
+      </h4>
+    </div> <!-- second change -->
+
+
+  </body>
+</html>
